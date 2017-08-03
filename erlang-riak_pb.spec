@@ -6,12 +6,11 @@
 
 Name:		erlang-%{realname}
 Version:	2.1.2.0
-Release:	%mkrel 6
+Release:	1
 Summary:	Riak Protocol Buffers Messages
 Group:		Development/Erlang
 License:	ASL 2.0
 URL:		https://github.com/%{upstream}/%{realname}
-VCS:		scm:git:https://github.com/%{upstream}/%{realname}.git
 Source0:	https://github.com/%{upstream}/%{realname}/archive/%{version}/%{realname}-%{version}.tar.gz
 Patch1:		erlang-riak_pb-0001-Proper-version-in-app-file.patch
 # FIXME add Python and Java bindings
